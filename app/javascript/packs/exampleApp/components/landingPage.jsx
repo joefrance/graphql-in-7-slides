@@ -1,4 +1,9 @@
 import React from "react";
+
+// Components
+import People from "./people";
+import Posts from "./posts";
+
 class LandingPage extends React.Component {
   render() {
     return (
@@ -23,6 +28,10 @@ class LandingPage extends React.Component {
             React Router.
           </a>
         </p>
+        <div>
+          <People {...this.props} />
+          <Posts {...this.props} />
+        </div>
       </div>
     );
   }
