@@ -28,6 +28,15 @@ class LandingPage extends React.Component {
             React Router.
           </a>
         </p>
+        <p>
+          And GraphQL side started with:{" "}
+          <a
+            target="_blank"
+            href="https://www.howtographql.com/graphql-ruby/0-introduction/"
+          >
+            graphql-ruby Tutorial - Introduction
+          </a>
+        </p>
         <div>
           <People {...this.props} />
           <Posts {...this.props} />
