@@ -22,6 +22,7 @@ class Post extends React.Component {
         query: `
           query allPosts {
             allPosts {
+              id
               author_id
               headline
               body
@@ -49,7 +50,7 @@ class Post extends React.Component {
         <ul>
           {this.state.posts.map(p => {
             return (
-              <li>
+              <li key={p.id}>
                 {p.body} <b>by: {p.author.fullName}</b>
               </li>
             );

@@ -43,7 +43,7 @@ class People extends React.Component {
         <h1>People</h1>
         <ul>
           {this.state.people.map(p => {
-            return <li>{p.fullName}</li>;
+            return <li key={p.id}>{p.fullName}</li>;
           })}
         </ul>
       </div>
