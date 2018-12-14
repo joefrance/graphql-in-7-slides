@@ -13,4 +13,4 @@ https://www.howtographql.com/graphql-ruby/0-introduction/
 
 - Start app:
 
-foreman start -f Procfile.dev -p 3000
+foreman start -f Procfile.dev -p 3500

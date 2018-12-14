@@ -16,7 +16,7 @@ class Post extends React.Component {
 
   componentDidMount() {
     axios({
-      url: "http://localhost:3000/graphql",
+      url: "http://localhost:3500/graphql",
       method: "post",
       data: {
         query: `
